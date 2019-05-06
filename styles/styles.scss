@@ -39,9 +39,7 @@ a {
         }
     }
 }
-.boss-nav-container {
-    width: 100%;
-}
+
 .page {
     width: calc(100% - 64px);
     height: calc(100% - 35px);
@@ -102,6 +100,9 @@ h5 {
         align-items: start;
         padding: 0;
         width: 100%;
+        .boss-nav-container {
+            width: 100%;
+        }
         .boss-nav-toggle {
             width: 100%;
             background: $black4;
