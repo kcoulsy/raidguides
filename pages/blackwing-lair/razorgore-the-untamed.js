@@ -10,7 +10,7 @@ const Home = () => (
     <Nav selected="home" />
     <div className="page">
       <BossNav type="bwl"/>
-      <div class="content">
+      <div className="content">
         <h2>razorgore</h2>
       </div>
     </div>

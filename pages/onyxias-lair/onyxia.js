@@ -10,7 +10,7 @@ const Home = () => (
     <Nav selected="home" />
     <div className="page">
       <BossNav type="ony"/>
-      <div class="content">
+      <div className="content">
         <h2>onyxia</h2>
       </div>
     </div>

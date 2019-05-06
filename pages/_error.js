@@ -15,7 +15,7 @@ class Error extends React.Component {
         <Head title="Home" />
         <Nav selected="home" />
         <div className="page">
-          <div class="content">
+          <div className="content">
             <p>
                 {this.props.statusCode
                 ? `An error ${this.props.statusCode} occurred on server`

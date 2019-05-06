@@ -9,7 +9,7 @@ const Home = () => (
     <Head title="Home" />
     <Nav selected="home" />
     <div className="page">
-      <div class="content">
+      <div className="content">
         <h2>Strategy</h2>
       </div>
     </div>

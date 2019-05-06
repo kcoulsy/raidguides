@@ -12,11 +12,11 @@ export default class componentName extends Component {
   }
   render() {
     return (
-      <div>
-          <div class="boss-nav-toggle" onClick={this.toggle}>Choose Boss</div>
-          <div class={`boss-nav ${this.state.show && 'show'}`}>
+      <div className="boss-nav-container">
+          <div className="boss-nav-toggle" onClick={this.toggle}>Choose Boss</div>
+          <div className={`boss-nav ${this.state.show && 'show'}`}>
             {data[this.props.type].map((boss) => {
-              return <Link href={boss.url}><a class="item">{boss.name}</a></Link>
+              return <Link href={boss.url} key={boss.name}><a className="item">{boss.name}</a></Link>
             })}
 
           </div>
