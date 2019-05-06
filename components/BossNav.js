@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import Link from 'next/link'
-import data from '../data';
+import data from '../data/bosses';
 
 export default class componentName extends Component {
   state = {
